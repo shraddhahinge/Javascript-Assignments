@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+     font-family: 'Noto Sans JP', sans-serif;
+}
+.container{
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+    width: 45rem;
+ height: 100vh;
+   
+     box-shadow: 0.5px 0.5px 1.5px 1.5px  grey;
+}
+
+#form{
+   height: 60vh;
+    margin-left: 2rem;
+      
+}
+
+select{
+    width: 5rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+cursor: pointer;
+}
+#dropdown_form{
+    /* border: 1px solid red; */
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#score_btn{
+    width: 10rem;
+    cursor: pointer;
+}
+#output{
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+    font-size: 40px;
+}
