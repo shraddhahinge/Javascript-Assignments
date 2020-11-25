@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <table id="table1">
+           <thead>
+               <tr>
+                   <th>Firstname</th>
+                   <th>Lastname</th>
+                   <th>Salary</th>
+                   <th>Date mm/dd/yyyy</th>
+               </tr>
+           </thead>
+           <tbody id="body">
+               <tr row="1" id="wow">
+                   <td><input type="text" name="firstname" id="firstname" onkeyup="this.value = this.value.toUpperCase();"></td>
+                   <td><input type="text" name="lastname" id="lastname" onkeyup="this.value = this.value.toUpperCase();"></td>
+                   <td><input type="number" name="salary" id="salary"></td>
+                   <td><input type="text" name="date" id="date" placeholder="mm/dd/yyyy"></td>
+               </tr>
+           </tbody>
+        </table>
+        <div id="btn">
+<button onclick="inputValue()">Add row</button>
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

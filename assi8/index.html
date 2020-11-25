@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="dropdowns">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Progress bar width</th>
+                        <th>Increment unit(px)</th>
+                        <th>Time interval(sec)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <select name="width" id="p_width">
+                                <option value="300" selected>300</option>
+                                <option value="400">400</option>
+                                <option value="500">500</option>
+                                <option value="600">600</option>
+                            </select>
+                        </td>
+                    
+                        <td>
+                            <select name="increment" id="p_inc_px" >
+                                <option value="5" selected>5</option>
+                                <option value="10">10</option>
+                                <option value="20">20</option>
+                                <option value="25">25</option>
+                            </select>
+                        </td>
+                    
+                        
+                        <td>
+                        <select name="time" id="p_time" >
+                            <option value="1000" selected>1</option>
+                            <option value="2000">2</option>
+                             <option value="3000">3</option>
+                             <option value="4000">4</option>
+                         </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+           </div>
+
+           <div id="showprogress">
+            <div id="progress_bar">
+               <span id="percentage">0%</span>
+           <div id="progress_outer">
+           <div id="progress_inner"> </div>
+           </div>
+           </div>
+           <div id="btn">
+<button onclick="showProgress()">Show Progress</button>
+           </div>
+          
+           </div>
+        <!-- <progress></progress> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: left;
+}
+.container {
+  border: 1px solid #a9a9a9;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 45rem;
+  height: 40vh;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+table {
+  width: 100%;
+  height: auto;
+  border-bottom: 0.5px solid #a9a9a9;
+  border-right: 0.5px solid #a9a9a9;
+  box-shadow: 1px 1px 0.5px 0.5px #a9a9a9 inset;
+}
+td,
+th {
+  text-align: center;
+
+  padding: 5px;
+  border-bottom: 0.5px solid #a9a9a9;
+  border-right: 0.5px solid #a9a9a9;
+  box-shadow: 1px 1px 0.5px 0.5px #a9a9a9 inset;
+}
+select {
+  width: 20%;
+  height: 1.5rem;
+  cursor: pointer;
+  /* border: 1px solid blue; */
+  box-shadow: 0.01px 0.01px 0.4px 0.4px blue;
+}
+
+option {
+  background-color: paleturquoise;
+}
+
+#progress_outer {
+  background-color: #deb887;
+  width: 0px;
+  height: 5vh;
+  position: relative;
+  overflow: hidden;
+  /* transition: width 1s ease-out; */
+  /* border: 1px solid black; */
+}
+#progress_inner {
+  background-color: #d2691e;
+  width: 0px;
+  height: 5vh;
+  position: relative;
+  overflow: hidden;
+  /* transition: width 2s ease-out; */
+}
+#showprogress {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+button {
+  width: auto;
+  height: 1.5rem;
+  font-size: 15px;
+  cursor: pointer;
+  /* border: 1px solid blue; */
+  box-shadow: 0.01px 0.01px 0.4px 0.4px blue;
+}
+progress {
+  height: 10vh;
+  width: 20rem;
+}

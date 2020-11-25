@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter CD key for Installation</h1>
+        <div class="inputs">
+<input type="text" maxlength="4" onkeyup="movetoNext(this, 'mix1')" name="numbers" id="numbers" ><span> -</span>
+<input type="text" maxlength="4" onkeyup="movetoNext(this, 'mix2')" onkeydown="this.value = this.value.toUpperCase()" name="mix" id="mix1" ><span> -</span>
+<input type="text" maxlength="4" onkeyup="movetoNext(this, 'alphabets')" onkeydown="this.value = this.value.toUpperCase()" name="mix" id="mix2" ><span> -</span>
+<input type="text" maxlength="4" name="alphabets" id="alphabets" onkeydown="this.value = this.value.toUpperCase()">
+        </div>
+        <button onclick="validate()">Validate Key</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
