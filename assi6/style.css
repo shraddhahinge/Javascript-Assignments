@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.container {
+  /* border: 1px solid black; */
+  margin-top: 2rem;
+  width: 45rem;
+  height: 90vh;
+
+  box-shadow: 0.5px 0.5px 1.5px 1.5px grey;
+}
+select,
+button,
+label,
+span {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+button {
+  width: 8rem;
+  height: 1.5rem;
+  font-size: 15px;
+  cursor: pointer;
+  /* border: 1px solid blue; */
+  box-shadow: 0.01px 0.01px 0.4px 0.4px blue;
+}
+span {
+  position: relative;
+  top: 3rem;
+  color: red;
+  font-size: 40px;
+}
+label {
+  color: blue;
+  font-size: 20px;
+}
+select {
+  width: 3rem;
+}

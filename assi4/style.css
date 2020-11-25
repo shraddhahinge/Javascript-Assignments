@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+     font-family: 'Noto Sans JP', sans-serif;
+}
+.container{
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+    width: 60rem;
+ height: 90vh;
+    text-align: center;
+     box-shadow: 0.5px 0.5px 1.5px 1.5px  grey;
+}
+ 
+#form_table{
+    margin-top: 2rem;
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 80vh;
+}
+
+table{
+  /* border: 1px solid red; */
+    width: 100%;
+    height: 50vh;
+    font-size: 15px;
+    border-collapse: collapse;
+}
+#list_details{
+margin-top: 2rem;
+border: 1px solid yellow;
+display: none;
+}
+#list_details th,td {
+    width: 15rem;
+}
+#list_details > thead > tr {
+    background-color: #0000FF;
+}
+
+
+input{
+    height: 1.5rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+select{
+    width: 5rem;
+    height: 1.5rem;
+     border: 2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+td{
+    width: auto;
+    
+}
+
+  

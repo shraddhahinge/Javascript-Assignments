@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <label for="intervals">Select Interval:</label>
+        <select name="interval" id="interval" onchange="show()">
+            <option value="2000">2</option>
+            <option value="3000">3</option>
+            <option value="5000">5</option>
+            <option value="10000">10</option>
+        </select>
+        <br/>
+<button id="btn" onclick="show()">Show Time</button>
+<br/>
+<span id="time">0</span>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
